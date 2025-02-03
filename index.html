@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine</title>
+    <style>
+        body {
+            background-color: #ffe6e6;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 20vh;
+            font-size: 3em;
+            color: #ff3366;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px;
+        }
+        button {
+            background-color: #ff3366;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff6688;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hey Adéline, the love of my life!</h1>
+    <p>Will you be my Valentine? 💖</p>
+    <button onclick="showMessage()">Yes</button>
+    <button onclick="showMessage()">Yes daddyyyy</button>
+
+    <p id="response" style="display:none; font-size: 1.5em; margin-top: 20px;">YIPPIEEEE, can't wait to go to Rotterdam with you!!!!! 🥰</p>
+
+    <script>
+        function showMessage() {
+            document.getElementById('response').style.display = 'block';
+        }
+        function showMessage() {
+    document.getElementById('response').style.display = 'block';
+
+    // Create a new image element
+    let img = document.createElement('img');
+    img.src = 'https://i.pinimg.com/736x/85/73/67/8573675d8942fb4670eff9a800cb83e1.jpg';  // Replace with your image URL or path
+    img.alt = 'A cute surprise';
+    img.style.width = '300px';
+    img.style.borderRadius = '10px';
+    img.style.marginTop = '20px';
+
+    // Append the image to the body or another element
+    document.body.appendChild(img);
+}
+    </script>
+</body>
+</html>
